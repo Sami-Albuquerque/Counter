@@ -1,0 +1,32 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+#center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eedbff;
+  z-index: 1;
+}
+
+#explanation {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

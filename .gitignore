@@ -1,2 +1,5 @@
 #Local para armazenar a chave privada do firebase
 private/
+
+#Cache
+*__pycache__*

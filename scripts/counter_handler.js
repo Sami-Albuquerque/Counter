@@ -3,15 +3,24 @@ const incrementCounter = () => {
 
   const xhr = new XMLHttpRequest();
   xhr.open("POST", `/`, true);
-  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  xhr.setRequestHeader("Content-Type", "application/json");
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        console.log("200");
+        var response = JSON.parse(xhr.responseText);
+
+        const span = document.getElementById('response_messages');
+        span.textContent = response.message;
       } else {
-        console.log("Unexpected");
+        var response = JSON.parse(xhr.responseText);
+        if(response.error) {
+          const span = document.getElementById('response_messages');
+          span.textContent = response.error;
+        } else {
+          alert("Um erro inesperado aconteceu");
+        }
       }
     }
   };
-  xhr.send(`number=${number}}`);
+  xhr.send(`{"number": ${number}}`);
 }

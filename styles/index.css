@@ -30,3 +30,7 @@ body, html {
   flex-direction: column;
   align-items: center;
 }
+
+#response_messages {
+  margin-top: 5px;
+}

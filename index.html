@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
   <script src="scripts/counter_handler.js" defer></script>
   <title>Contador</title>
 </head>
@@ -11,15 +14,23 @@
   <div id="explanation">
     <h2>Contador de iterações</h2>
     <p>
-      Vou te dizer aqui quantas vezes o número preenchido já foi inserido.
+      Vou te dizer aqui quantas vezes o número que você colocou já foi inserido 🍒
     </p>
+  </div>
+
+  <div id="image">
+    <iframe src="https://giphy.com/embed/lJNoBCvQYp7nq" width="240" height="240" frameBorder="0" class="giphy-embed"></iframe>
+  </div>
+  
+  <div id="divi">
+    <img src="https://img1.picmix.com/output/stamp/normal/3/8/6/3/1793683_eaa71.gif">
   </div>
 
   <div id="center">
     <div id="form">
       <label for="number">Número:</label><br>
       <input type="number" id="number" name="number" value="0"><br>
-      <button type="button" onclick="incrementCounter()">Verificar</button>
+      <button type="button" id="button" onclick="incrementCounter()">Verificar</button>
       <span id="response_messages"></span>
     </div>
   </div>

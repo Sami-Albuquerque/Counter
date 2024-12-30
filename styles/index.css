@@ -1,7 +1,27 @@
+.quicksand-main {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #eedbff;
+  font-family: "Quicksand", serif;
+}
+
+#number {
+  width: 15%;
+  height: 10%;
+}
+
+#button {
+  width: 5%;
+  height: 15%;
+  background-color: #f7f3fa;
 }
 
 #form {
@@ -12,13 +32,27 @@ body, html {
   justify-content: center;
 }
 
+#image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#divi {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #center {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: #eedbff;
+  height: 20%;
   z-index: 1;
 }
 
@@ -29,6 +63,7 @@ body, html {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  height: 20%;
 }
 
 #response_messages {

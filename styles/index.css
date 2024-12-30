@@ -13,14 +13,22 @@ body, html {
   font-family: "Quicksand", serif;
 }
 
+p {
+  text-align: center;
+}
+
 #number {
   width: 15%;
+  min-width: 100px;
   height: 10%;
+  min-height: 25px;
 }
 
 #button {
   width: 5%;
+  min-width: 100px;
   height: 15%;
+  min-height: 30px;
   background-color: #f7f3fa;
 }
 

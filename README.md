@@ -7,20 +7,20 @@
 <h1 align="left">Contador de Iterações</h3>
 
 
-<p align="left"> Projetinho feito para a disciplina de Linguaguens de Programação Script.
+<p align="left"> Projetinho feito para a disciplina de Linguaguem de Programação Script.
     <br> 
 </p>
 
 
 ## Sobre o projeto ( •_•)><a name = "about"></a>
 
-Esse é um programinha feito para contar quantas vezes um determinado número escolhido pelo usuário foi enviado. Foi feito usando HTML, CSS e Python. O banco de dados usado foi o Firebase.
+Esse é um programinha feito para contar quantas vezes um determinado número escolhido pelo usuário foi enviado. Foi feito usando HTML, CSS, Python e JavaScript. O banco de dados usado foi o Firebase.
 
-A aplicação está hospedada no Render e pode ser acessada em <a href="url">`https://counter-0osq.onrender.com`</a>. Pode demorar um pouco para carregar, mas vai abrir.
+A aplicação está hospedada no Render e pode ser acessada em <a href="url">`https://counter-0osq.onrender.com`</a>. Pode demorar um pouco para carregar pelo servidor do Render estar reiniciando, mas vai abrir dentro de 1 minutinho.
 
 ## Pré-requisitos (●'◡'●)
 
-Para acessar online, é necessário acesso à internet. Para rodar na sua máquina, é necessário Python instalado.
+Para acessar online, é necessário acesso à internet. Para rodar na sua máquina, é necessário ter Python instalado.
 
 ## Instalação ༼ つ ◕_◕ ༽つ
 
